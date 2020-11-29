@@ -14,6 +14,10 @@
                 <br />
                 <input type="submit" value="Enviar" />
             </form>
+            <form action="upload.php" method="get">
+                <label>Insira o nome da sua imagem: <input type = "text" name = "n"/><br></label>
+                <br />
+            </form> 
         </div>
         <hr>
         <?php
