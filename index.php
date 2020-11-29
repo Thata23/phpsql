@@ -14,6 +14,10 @@
             <form action="upload.php" method="get">
                 <label>Insira o nome da sua imagem: <input type = "text" name = "ni"/><br></label>
                 <br />
+                <label>PNG: <input type = "radio" name = "selpng" value = "selpng"/><br></label>
+                <label></label>
+                <label>JPG: <input type = "radio" name = "seljpg" value = "seljpg"/><br></label>
+                <label></label>
                 <input type="submit" value="Enviar" />
             </form> 
         </div>
