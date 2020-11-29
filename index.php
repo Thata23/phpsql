@@ -18,6 +18,7 @@
                 <label></label>
                 <label>JPG: <input type = "radio" name = "seljpg" value = "seljpg"/></label>
                 <label></label>
+                <br>
                 <input type="submit" value="Enviar" />
             </form> 
         </div>
