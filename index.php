@@ -14,7 +14,7 @@
                 <br />
             </form>
             <form action="upload.php" method="get">
-                <label>Insira o nome da sua imagem: <input type = "text" name = "n"/><br></label>
+                <label>Insira o nome da sua imagem: <input type = "text" name = "ni"/><br></label>
                 <br />
                 <input type="submit" value="Enviar" />
             </form> 
