@@ -12,7 +12,7 @@
                 <br />
             </form>
             <form action="upload.php" method="get">
-                <label>Insira o nome da sua imagem: <input type = "text" name = "ni"/><br></label>
+                <label>Insira o nome da sua imagem: <input type = "text" name = "nomeI"/><br></label>
                 <br />
                 <input type="submit" value="Enviar" />
             </form> 
