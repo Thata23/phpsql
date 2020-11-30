@@ -10,7 +10,7 @@ $dados = mysqli_fetch_array($resultado);
 $nome = $dados['arquivo'];
 
 // excluindo o registro
-$sqlvisualizar = "insert into imagens (nomeI) values (null, '$nome_final')";
+$sqlvisualizar = "select from imagens where nomeI='$nome_final'";
 mysqli_query($conexao, $sqlvisualizar);
 
 unlink('arquivos/' . $nome);
