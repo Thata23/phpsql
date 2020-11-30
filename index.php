@@ -11,6 +11,7 @@
                 <label for="arquivo">Arquivo:</label> <input type="file" name="arquivo" id="arquivo" />
                 <br />
                 <label>Insira o nome da sua imagem: <input type = "text" name = "nomeI"/><br></label>
+                <label>1 PNG e 2 JPG: <input type = "text" name = "tipo"/><br></label>
                 <br />
                 <input type="submit" value="Enviar" />
             </form> 
