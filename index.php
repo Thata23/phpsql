@@ -28,6 +28,7 @@
         while ($dados = mysqli_fetch_array($resultado)) { 
             echo " ". $dados['nomeI']  ;
             echo "<a href='apagar.php?id=" . $dados['id'] . "'><img src='delete.png'></a>";
+            echo "<br>";
             echo "<a href='visualizar.php?id=" . $dados['id'] . "'><img src='abrir.png'></a>";
             echo "<br>";
         }
