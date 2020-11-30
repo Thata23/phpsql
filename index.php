@@ -11,9 +11,10 @@
                 <label for="arquivo">Arquivo:</label> <input type="file" name="arquivo" id="arquivo" />
                 <br />
                 <label>Insira o nome da sua imagem: <input type = "text" name = "nomeI"/><br></label>
-                <label>1 PNG e 2 JPG: <input type = "text" name = "tipo"/><br></label>
+                <label>1 PNG e 2 JPG: <input type = "number" name = "tipo"/><br></label>
                 <br />
                 <input type="submit" value="Enviar" />
+                <br/>
             </form> 
         </div>
         <hr>
@@ -28,6 +29,7 @@
             echo " ". $dados['nomeI']  ;
             echo "<a href='apagar.php?id=" . $dados['id'] . "'><img src='delete.png'></a>";
             echo "<a href='visualizar.php?id=" . $dados['id'] . "'><img src='abrir.png'></a>";
+            echo "<br>";
         }
         ?>
     </body>
