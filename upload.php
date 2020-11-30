@@ -16,7 +16,7 @@ if (substr($_FILES['arquivo']['name'], -3) == "png" ||substr($_FILES['arquivo'][
     $tmpName = $_FILES['arquivo']['tmp_name'];
     $name = $_FILES['arquivo']['name'];
     if (move_uploaded_file($tmpName, $dir . $nome_final)) {
-         $sqlstring = "insert into imagens (id, arquivo, nomeI) values (null, '$nome_final')";
+         $sqlstring = "insert into imagens (id, arquivo, nomeI) values (null, '$nome_final', nomeI)";
         mysqli_query($conexao, $sqlstring);
         header('Location: index.php');
     } else {
